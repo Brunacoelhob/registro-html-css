@@ -1,0 +1,42 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-weight: 400;
+
+color: black;
+"font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+.title {
+    font-size: 37px;
+    margin-bottom: 22px;
+    font-weight: 700;
+    justify-content: center;
+}
+.label-field {
+    font-size: 14px;  
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+}
